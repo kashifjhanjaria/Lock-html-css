@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightcoral;
+}
+.main__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.up__side {
+  width: 100px;
+  height: 120px;
+
+  background-color: gray;
+  position: relative;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.up__side__inner {
+  width: 55px;
+  height: 95px;
+
+  border-radius: 50px 50px 0 0;
+  background-color: lightcoral;
+}
+.bass {
+  background-color: orange;
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: 115px;
+  left: -50px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  position: relative;
+  top: 20px;
+  border-radius: 50%;
+}
+.line {
+  width: 10px;
+  height: 30px;
+  background: black;
+  position: absolute;
+  top: 90px;
+  border-radius: 0 0 3px 3px;
+}
+.dots-one {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 50%;
+}
+.dots-two {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 50%;
+}
+.dots-three {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 50%;
+}
+.dots-four {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+}
